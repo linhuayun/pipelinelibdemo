@@ -1,8 +1,9 @@
-import static org.foo.Zot
+import org.foo.Zot
 
 def call(noden, Closure body) {
     log.info noden
-    Zot.checkOutFrom('yyyyyyyy')
+    def z= new Zot() 
+    z.checkOutFrom('yyyyyyyy')
     node(noden) {
         body()
     }
