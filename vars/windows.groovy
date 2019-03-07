@@ -1,5 +1,5 @@
-def call(Closure body) {
-    node('windows') {
+def call(node, Closure body) {
+    node(node) {
         body()
     }
 }
