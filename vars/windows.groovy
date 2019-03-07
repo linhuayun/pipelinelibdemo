@@ -1,5 +1,5 @@
-def call(node, Closure body) {
-    node(node) {
+def call(noden, Closure body) {
+    node(noden) {
         body()
     }
 }
