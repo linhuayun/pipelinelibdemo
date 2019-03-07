@@ -1,8 +1,8 @@
 * 1
 * 2
 * 3
-* info:
+* *info:*
     xxxx
 
-* debug:
+* *debug:*
     yyyy
